@@ -21,6 +21,8 @@ Video formats depend on the media codecs available in Windows. The app does not 
 
 SRT and VTT are subtitle exchange formats, so they cannot preserve every CaptionClock appearance setting. Exports retain text emphasis; VTT also stores cue placement. The `.ccproj` file is the editable format for custom fonts, font size, outline, and exact preview placement. Keep the project file and its `_fonts` folder together.
 
+<img width="1920" height="1050" alt="CC1" src="https://github.com/user-attachments/assets/b594d180-a47c-4a17-98e9-8d8e5460f977" />
+
 ## Build from Command Prompt
 
 Install the **.NET 10 SDK** on Windows, open Command Prompt in this folder, and run:
